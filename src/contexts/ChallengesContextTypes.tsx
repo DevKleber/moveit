@@ -21,4 +21,5 @@ export interface ChallengesContextData {
 	levelUp: () => void; //é assim que tipa funções sem retorno.
 	startNewChallenge: () => void;
 	resetChallenge: () => void;
+	completeChallenge: () => void;
 }
